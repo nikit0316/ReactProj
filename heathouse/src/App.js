@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './components/Header'
-import Home from './pages/Home';
+import Info from './components/Info';
 
 const App = () => {
   return (
-    <div className='flex h-screen w-screen'>
+    <div className='flex flex-col h-screen mx-40'>
       <Header />
-      <Home />
+      <Info />
     </div>
   );
 }
