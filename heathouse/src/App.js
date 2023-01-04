@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header'
 import Info from './components/Info';
 import ProductsChoose from './components/ProductsChoose';
+import Products from './components/Products';
 
 const App = () => {
   return (

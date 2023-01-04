@@ -3,7 +3,7 @@ import image from '../icons/image1.png'
 
 const Info = () => {
   return (
-    <div className="flex flex-row  h-1/2">
+    <div className="flex flex-row justify-center">
       <div className="flex flex-col justify-center text-center w-1/2 bg-yellow-400">
         <text className="font-bold text-4xl">
         ООО «ТеплоГазМонтаж»
