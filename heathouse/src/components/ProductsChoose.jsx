@@ -39,7 +39,7 @@ const ProductsChoose = () => {
             selectItem={selectItem}
             className="w-full"
             image={image3}
-            value={2}
+            value={4}
             text="Блочно-модульные котельные"
           />
         </div>
