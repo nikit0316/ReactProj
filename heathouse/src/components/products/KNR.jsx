@@ -1,5 +1,6 @@
 import React from "react";
-import image from "../../icons/image1.png";
+import image from "../../icons/image12.png";
+import image1 from "../../icons/image13.png";
 
 const KNR = () => {
   return (
@@ -50,7 +51,7 @@ const KNR = () => {
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
           <img
             className="w-1/6 h-auto justify-self-center self-center"
-            src={image}
+            src={image1}
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
@@ -60,7 +61,7 @@ const KNR = () => {
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
           <img
             className="w-1/6 h-auto justify-self-center self-center"
-            src={image}
+            src={image1}
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
@@ -70,7 +71,7 @@ const KNR = () => {
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
           <img
             className="w-1/6 h-auto justify-self-center self-center"
-            src={image}
+            src={image1}
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
@@ -80,7 +81,7 @@ const KNR = () => {
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
           <img
             className="w-1/6 h-auto justify-self-center self-center"
-            src={image}
+            src={image1}
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">

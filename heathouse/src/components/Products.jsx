@@ -11,7 +11,7 @@ const Products = (props) => {
             <Carousel selectedItem={parseInt(props.select)}>
                 <KNR />
                 <RSA />
-                <BMK />
+                {/* <BMK />  */}
             </Carousel>
         </div>
     )

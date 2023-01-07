@@ -12,7 +12,7 @@ const BMK = () => {
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
-            Котел наружного размещения
+            Блочно-модульные котельные
           </div>
         </div>
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
@@ -22,7 +22,7 @@ const BMK = () => {
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
-            Котел наружного размещения
+            Блочно-модульные котельные
           </div>
         </div>
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
@@ -32,7 +32,7 @@ const BMK = () => {
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
-            Котел наружного размещения
+            Блочно-модульные котельные
           </div>
         </div>
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
@@ -42,7 +42,7 @@ const BMK = () => {
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
-            Котел наружного размещения
+            Блочно-модульная котельная
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ const BMK = () => {
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
-            Котел наружного размещения
+            Блочно-модульная котельная
           </div>
         </div>
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
@@ -64,7 +64,7 @@ const BMK = () => {
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
-            Котел наружного размещения
+            Блочно-модульная котельная
           </div>
         </div>
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
@@ -74,7 +74,7 @@ const BMK = () => {
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
-            Котел наружного размещения
+            Блочно-модульная котельная
           </div>
         </div>
         <div className="border-solid border-black rounded border-2 bg-white w-1/6">
@@ -84,7 +84,7 @@ const BMK = () => {
             alt="oops"
           ></img>
           <div className="flex flex-wrap self-center text-center text-xl font-semibold mx-5 my-5">
-            Котел наружного размещения
+            Блочно-модульная котельная
           </div>
         </div>
       </div>

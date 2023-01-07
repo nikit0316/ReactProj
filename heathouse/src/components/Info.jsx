@@ -8,12 +8,12 @@ const Info = () => {
         <text className="font-bold text-4xl">
         ООО «ТеплоГазМонтаж»
         </text>
-        <text className="mx-32 text-2xl">
+        <text className="mx-32 text-2xl text-left font-medium">
           - Реализация под «ключ» проектов газоснабжения, теплоснабжения,
           электроснабжения, автоматизации химической и нефтехимической
           промышленности, сетей связи.
         </text>
-        <text className="mx-32 text-2xl">
+        <text className="mx-32 text-2xl text-left font-medium">
         - Производство блочно-модульных котельных
           и котлов наружного размещения
         </text>

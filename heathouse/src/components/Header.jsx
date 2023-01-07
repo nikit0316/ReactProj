@@ -1,7 +1,18 @@
 import React from "react";
 import image from "../icons/Rectangle4.png";
+import pdf1 from "../icons/about.pdf";
+import pdf2 from "../icons/contacts.pdf";
+import pdf3 from "../icons/documents.pdf";
+import Block from "./Block";
+import Button from "./Button";
 
 const Header = () => {
+
+  const openPDF = (event) => {
+    window.open(event).focus()
+    console.log(event)
+    return false;
+  }
   return (
     <div className="flex justify-around ml-8 my-8">
       <div className="w-1/6">
@@ -25,11 +36,11 @@ const Header = () => {
         <div className="mr-28">
           <div className="bg-red-900 h-0.5 m-3 mt-10"></div>
           <div className="flex justify-between">
-            <text className="text-red-900 text-xl font-bold">Главная</text>
-            <text className="text-red-900 text-xl font-bold">О компании</text>
-            <text className="text-red-900 text-xl font-bold">Контакты</text>
-            <text className="text-red-900 text-xl font-bold">Обратная связь</text>
-            <text className="text-red-900 text-xl font-bold">Разрешительные документы</text>
+          <a className ="text-red-900 text-xl font-bold" href={pdf1} target = "_blank" rel="noreferrer">О компании </a>
+            <button> <text className="text-red-900 text-xl font-bold">Главная</text> </button>
+            <a className ="text-red-900 text-xl font-bold" href={pdf2} target = "_blank" rel="noreferrer">Контакты </a>
+            <button> <text className="text-red-900 text-xl font-bold">Обратная связь</text> </button>
+            <a className ="text-red-900 text-xl font-bold" href={pdf3} target = "_blank" rel="noreferrer">Разрешительные документы</a>
           </div>
         </div>
       </div>
