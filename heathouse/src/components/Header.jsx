@@ -8,14 +8,18 @@ import Button from "./Button";
 
 const Header = () => {
 
-  const openPDF = (event) => {
-    window.open(event).focus()
-    console.log(event)
-    return false;
-  }
-
   const sendEmail = () => {
-    window.open('mailto:test@example.com');
+    Email.send({
+      Host : "smtp.elasticemail.com",
+      Username : "treskov-1@mail.ru",
+      Password : "52D591428F30B65875CAC6A30A76E36DFD6D",
+      To : 'treskov-1@mail.ru',
+      From : "misterreskov@gmail.com",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+  }).then(
+    message => alert(message)
+  );
   }
   return (
     <div className="flex justify-around ml-8 my-8">
